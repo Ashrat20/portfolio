@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+    background-color: #202124;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#container #nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container #nav #heading {
+    font-size: 20px;    
+    font-weight: 800;
+    color: sandybrown;
+    padding: 20px;
+    margin-left: 5%;
+}
+
+#container #nav #element ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin-right: 60px;
+}
+
+#container #nav #element ul li a {
+    text-decoration: none;
+    color: lightsalmon;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#container #nav #element ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    text-decoration-thickness: 5px;
+   
+}
+
+#container #main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container #main #myintro {
+    width: 60%;
+    padding: 50px;
+    margin-top: 110px;
+}
+
+#container #main #myintro h1 {
+    color: darkorchid;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+#container #main #myintro h2 {
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+#container #main #myintro h2 span {
+    color: hotpink;
+}
+
+#container #main #myintro h3 {
+    color: white;
+    font-size: 50px;
+}
+
+#container #main #myintro h3 span {
+    color: lightseagreen;
+}
+
+#container #main #myintro #para {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#container #main #image {
+    width: 40%;
+}
+
+#container #main #image img {
+    padding: 0px;
+    border-radius: 195px;
+    background-color: khaki;
+    border: 3px ridge firebrick;
+    margin-top: 120px;
+    margin-left: 100px;
+    height: 400px;
+
+}
+
+/* #container #main #image img:hover{
+   
+} */
+#container #aboutme {
+    background: linear-gradient(to top left,skyblue,rgb(124, 37, 124));
+    width: 50%;
+    margin-top: 200px;
+    padding: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    height: 300px;
+}
+
+#container #aboutme #heading2 h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+
+#container #aboutme #description #para2 {
+    color: white;
+    font-size: 25px;
+}
+
+#container #skillhead {
+    text-align: center;
+    color: lightsalmon;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+#container #skill #frontend{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    padding: 40px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+#container #skill #backend{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    padding: 40px;
+    background-color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    
+}
+
+#container #contact{
+    display:flex ;
+    justify-content :space-between ;
+    margin-top: 14%;
+    margin-bottom: 10%;
+
+}
+
+#container #contact #contactimage{
+   width: 50%;
+   margin-left: 10%;
+   padding: 10px;
+}
+
+#container #contact #contactimage img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#container #contact #contactform{
+   width: 30%;
+   box-sizing: border-box;
+   border: 2px solid white;
+   background-color: darkgray;
+   margin-right: 40px;
+   padding: 30px;
+   box-shadow: 10px white;
+}
+
+#container #contact #contactform h1{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+#container #contact #contactform form label{
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+#container #contact #contactform form input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+    margin-bottom: 40px;
+}
+#container #contact #contactform form button{
+    padding: 10px 30px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+
+
+}
+#container #contact h2{
+    padding: 20px;
+}
+
+#container #contact a {
+    margin-top: 30px;
+    font-size: 44px;
+    margin-left: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none;
+   
+}
+#container #footer {
+    background-color: whitesmoke;
+    height: 80px;
+    margin-top: 60px;
+}
+
+#container #footer h3 {
+    text-align: center;
+    padding: 30px;
+}
